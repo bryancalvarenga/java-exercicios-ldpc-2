@@ -40,10 +40,10 @@ public class Ex13 {
             double percentualAteCem = ((double) ateCem / funcionarios) * 100;
 
             System.out.println("\n===== RESULTADOS =====");
-            System.out.printf("a) Média salarial: R$ %.2f%n", mediaSalarios);
-            System.out.printf("b) Média de dependentes: %.2f%n", mediaDependentes);
-            System.out.printf("c) Maior salário: R$ %.2f%n", maiorSalario);
-            System.out.printf("d) Percentual com salário até R$100,00: %.1f%%%n", percentualAteCem);
+            System.out.printf("a) Média salarial: R$ %.2f\n", mediaSalarios);
+            System.out.printf("b) Média de dependentes: %.2f\n", mediaDependentes);
+            System.out.printf("c) Maior salário: R$ %.2f\n", maiorSalario);
+            System.out.printf("d) Percentual com salário até R$100,00: %.1f%%\n", percentualAteCem);
         } else {
             System.out.println("\nNenhum dado foi informado.");
         }
